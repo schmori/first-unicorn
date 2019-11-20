@@ -6,13 +6,15 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "bucket_60.png",
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "bucket_58.png",
       "scale" : "2x"
     },
     {
@@ -26,8 +28,9 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "busket_icon_120-1.png",
       "scale" : "3x"
     },
     {
@@ -37,8 +40,9 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "bucket_180.png",
       "scale" : "3x"
     },
     {
