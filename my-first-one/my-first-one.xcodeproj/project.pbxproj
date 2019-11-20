@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC9C57A62382DF7D0022B466 /* shopping_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9C57A52382DF7C0022B466 /* shopping_icon.png */; };
 		ACABB07123466274000910F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABB07023466274000910F8 /* AppDelegate.swift */; };
 		ACABB07323466274000910F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABB07223466274000910F8 /* SceneDelegate.swift */; };
 		ACABB07523466274000910F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABB07423466274000910F8 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC9C57A52382DF7C0022B466 /* shopping_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shopping_icon.png; path = ../../shopping_icon.png; sourceTree = "<group>"; };
 		ACABB06D23466274000910F8 /* my-first-one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-first-one.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACABB07023466274000910F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACABB07223466274000910F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				ACABB07623466275000910F8 /* Assets.xcassets */,
 				ACABB07B23466275000910F8 /* LaunchScreen.storyboard */,
 				ACABB07E23466275000910F8 /* Info.plist */,
+				AC9C57A52382DF7C0022B466 /* shopping_icon.png */,
 				ACABB07823466275000910F8 /* Preview Content */,
 			);
 			path = "my-first-one";
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9C57A62382DF7D0022B466 /* shopping_icon.png in Resources */,
 				ACABB07D23466275000910F8 /* LaunchScreen.storyboard in Resources */,
 				ACABB07A23466275000910F8 /* Preview Assets.xcassets in Resources */,
 				ACABB07723466275000910F8 /* Assets.xcassets in Resources */,
@@ -436,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"my-first-one/Preview Content\"";
+				DEVELOPMENT_TEAM = 6LF66G43ZD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "my-first-one/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"my-first-one/Preview Content\"";
+				DEVELOPMENT_TEAM = 6LF66G43ZD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "my-first-one/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
