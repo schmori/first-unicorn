@@ -11,23 +11,22 @@ import SwiftUI
 struct ContentView: View {
 
     @State private var selection = 2
-    
+
     init() {
-        UITabBar.appearance().backgroundColor = UIColor.orange
+        UITabBar.appearance().backgroundColor = UIColor(named: "pink_neon")
     }
 
     var body: some View {
         TabView(selection: $selection) {
-            Text("Einstellungen")
-                .tabItem {
+            Text("Einstellungen").bold()
+                .tabItem ({ 
                     Image("settings_icon_32")
-                    Text("Einstellungen")
-                }
+                        .imageScale(.large)
+                })
                 .tag(1)
-            Text("deine Produktsuche")
+            Text("deine Produktsuche").bold()
                 .tabItem {
                     Image("supermarket_icon_32")
-                    Text("Suche")
                 }
                 .tag(2)
         }
